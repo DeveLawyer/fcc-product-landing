@@ -1,0 +1,23 @@
+/*** Site colors ***
+    red: #f67280
+    almost-red: #c06c84
+    almost-blue: #6c5b7b
+    blue: #35477d
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: serif;
+  margin: 0;
+}
