@@ -27,3 +27,9 @@ body {
   margin: auto;
   width: 1000px;
 }
+
+h1,
+h2,
+h3 {
+  color: #35477d;
+}
