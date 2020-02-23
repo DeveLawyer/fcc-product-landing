@@ -33,3 +33,12 @@ h2,
 h3 {
   color: #35477d;
 }
+
+/*** Header ***/
+#header {
+  background-color: #fff;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  width: 100%;
+}
