@@ -62,3 +62,20 @@ h3 {
 #nav-bar li {
   display: inline-block;
 }
+
+.nav-link {
+  background-color: #f67280;
+  border: 1px solid #f67280;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  border: 1px solid black;
+  color: #f67280;
+}
