@@ -46,3 +46,19 @@ h3 {
 #header-img {
   object-fit: contain;
 }
+
+#nav-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+#nav-bar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#nav-bar li {
+  display: inline-block;
+}
