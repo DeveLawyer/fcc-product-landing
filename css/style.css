@@ -40,13 +40,16 @@ h3 {
   display: flex;
   height: 80px;
   justify-content: space-between;
+  top: 0;
   width: 100%;
+  position: fixed;
 }
 
 #header-img {
   object-fit: contain;
 }
 
+/*** Navbar ***/
 #nav-bar {
   align-items: center;
   display: flex;
