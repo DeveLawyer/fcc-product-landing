@@ -23,7 +23,7 @@ body {
 }
 
 .wrapper {
-  background-color: #fff;
+  background-color: rgb(233, 167, 167);
   margin: auto;
   position: relative;
   top: 80px;
@@ -84,4 +84,19 @@ h3 {
   background-color: #fff;
   border: 1px solid black;
   color: #f67280;
+}
+
+/*** Form ***/
+#form {
+  text-align: center;
+}
+
+#form input {
+  width: 25%;
+  margin: 10px auto;
+}
+
+#form button {
+  display: block;
+  margin: 10px auto;
 }
