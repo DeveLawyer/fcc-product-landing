@@ -96,7 +96,8 @@ h3 {
   border: 2px solid #c06c84;
 }
 
-#form button {
+/*** Button ***/
+.btn {
   display: block;
   margin: 10px auto;
   background-color: #c06c84;
@@ -108,7 +109,7 @@ h3 {
   border: 1px solid #c06c84;
 }
 
-#form button:hover {
+.btn:hover {
   background-color: #000;
   border: 1px solid #f67280;
   color: #f67280;
