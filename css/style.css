@@ -47,6 +47,7 @@ h3 {
   object-fit: contain;
 }
 
+/*** Navbar ***/
 #nav-bar {
   align-items: center;
   display: flex;
@@ -78,4 +79,19 @@ h3 {
   background-color: #fff;
   border: 1px solid black;
   color: #f67280;
+}
+
+/*** Form ***/
+#form {
+  text-align: center;
+}
+
+#form input {
+  width: 25%;
+  margin: 10px auto;
+}
+
+#form button {
+  display: block;
+  margin: 10px auto;
 }
