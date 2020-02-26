@@ -20,6 +20,7 @@ body {
   color: #000;
   font-family: serif;
   margin: 0;
+  line-height: 2;
 }
 
 .wrapper {
@@ -99,7 +100,7 @@ h3 {
 /*** Button ***/
 .btn {
   display: block;
-  margin: 10px auto;
+  margin: 15px auto;
   background-color: #c06c84;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -119,15 +120,33 @@ h3 {
 #pricing {
   display: flex;
   justify-content: space-around;
-  padding: 20px 40px;
+  padding: 50px 30px;
 }
 
 #pricing * {
   flex: 1;
-  margin: 0 20px;
-  padding: 10px 20px;
 }
 
 .price {
   border: 1px solid #35477d;
+  /* padding: 20px 40px; */
+  margin: 0 20px;
+}
+
+.price h3 {
+  text-align: center;
+  background-color: #35477d;
+  color: #fff;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.price li {
+  text-align: center;
+}
+
+.price ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
 }
