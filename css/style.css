@@ -24,8 +24,10 @@ body {
 }
 
 .wrapper {
-  background-color: #fff;
+  background-color: rgb(233, 167, 167);
   margin: auto;
+  position: relative;
+  top: 80px;
   width: 1000px;
 }
 
@@ -41,7 +43,10 @@ h3 {
   display: flex;
   height: 80px;
   justify-content: space-between;
+  top: 0;
   width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 #header-img {
