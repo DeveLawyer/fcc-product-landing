@@ -89,6 +89,11 @@ h3 {
 #form input {
   width: 25%;
   margin: 10px auto;
+  padding: 10px 5px;
+}
+
+#form input:hover {
+  border: 2px solid #c06c84;
 }
 
 #form button {
