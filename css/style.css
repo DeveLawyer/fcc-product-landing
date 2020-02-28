@@ -21,6 +21,7 @@ body {
   font-family: serif;
   margin: 0;
   line-height: 2;
+  font-family: "Roboto";
 }
 
 .wrapper {
@@ -92,6 +93,10 @@ h3 {
   text-align: center;
 }
 
+.title {
+  font-family: "Pacifico";
+}
+
 #form input {
   width: 25%;
   margin: 10px auto;
@@ -119,6 +124,17 @@ h3 {
   background-color: #000;
   border: 1px solid #f67280;
   color: #f67280;
+}
+
+/*** Features section ***/
+#features h2 {
+  font-family: "Merriweather";
+}
+
+/*** How-it-works section ***/
+#how-it-works {
+  text-align: center;
+  margin-top: 50px;
 }
 
 /*** Pricing-section ***/
