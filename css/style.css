@@ -162,6 +162,12 @@ h3 {
   padding: 15px 0;
 }
 
+.item-price {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
 .price li {
   text-align: center;
 }
