@@ -7,6 +7,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
@@ -42,6 +43,7 @@ h3 {
 #header {
   background-color: #fff;
   display: flex;
+  font-size: 1rem;
   height: 80px;
   justify-content: space-between;
   position: fixed;
@@ -96,16 +98,22 @@ h3 {
 
 .title {
   font-family: "Pacifico";
+  font-size: 2rem;
 }
 
 #form input {
   margin: 10px auto;
   padding: 10px 5px;
-  width: 25%;
+  font-size: 1rem;
 }
 
 #form input:hover {
   border: 2px solid #c06c84;
+}
+
+#email {
+  min-width: 300px;
+  width: 30%;
 }
 
 /*** Button ***/
@@ -127,9 +135,19 @@ h3 {
   color: #f67280;
 }
 
+#form .btn {
+  width: 25%;
+  min-width: 200px;
+}
+
 /*** Features section ***/
+#features {
+  margin-top: 50px;
+}
+
 #features h2 {
   font-family: "Merriweather";
+  font-size: 1.5rem;
 }
 
 /*** How-it-works section ***/
@@ -241,6 +259,10 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
   #header {
     position: relative;
   }
