@@ -18,19 +18,18 @@ html {
 body {
   background-color: #fff;
   color: #000;
-  font-family: serif;
-  margin: 0;
+  font-family: "Roboto", serif;
   line-height: 2;
-  font-family: "Roboto";
+  margin: 0;
 }
 
 .wrapper {
   background-color: #fff;
   margin: auto;
+  max-width: 1000px;
   position: relative;
   top: 80px;
   width: 80%;
-  max-width: 1000px;
 }
 
 h1,
@@ -45,9 +44,9 @@ h3 {
   display: flex;
   height: 80px;
   justify-content: space-between;
+  position: fixed;
   top: 0;
   width: 100%;
-  position: fixed;
   z-index: 1;
 }
 
@@ -100,9 +99,9 @@ h3 {
 }
 
 #form input {
-  width: 25%;
   margin: 10px auto;
   padding: 10px 5px;
+  width: 25%;
 }
 
 #form input:hover {
@@ -111,15 +110,15 @@ h3 {
 
 /*** Button ***/
 .btn {
-  display: block;
-  margin: 15px auto;
   background-color: #c06c84;
-  padding: 10px 20px;
-  text-transform: uppercase;
+  border: 1px solid #c06c84;
+  display: block;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
-  border: 1px solid #c06c84;
+  margin: 15px auto;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -135,8 +134,8 @@ h3 {
 
 /*** How-it-works section ***/
 #how-it-works {
-  text-align: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 /*** Pricing-section ***/
@@ -152,22 +151,21 @@ h3 {
 
 .price {
   border: 1px solid #35477d;
-  /* padding: 20px 40px; */
   margin: 0 20px;
 }
 
 .price h3 {
-  text-align: center;
   background-color: #6c5b7b;
   color: #fff;
   margin: 0;
   padding: 15px 0;
+  text-align: center;
 }
 
 .item-price {
-  text-align: center;
   font-size: 30px;
   margin: 10px 0;
+  text-align: center;
 }
 
 .price li {
@@ -176,19 +174,19 @@ h3 {
 
 .price ul {
   list-style: none;
-  padding: 0;
   margin: 30px 0;
+  padding: 0;
 }
 
 /*** Footer ***/
 footer {
-  max-width: 1000px;
-  width: 80%;
+  background-color: #ccc;
   margin: auto;
+  max-width: 1000px;
   padding: 20px 30px;
   position: relative;
   top: 80px;
-  background-color: #ccc;
+  width: 80%;
 }
 
 .links {
@@ -204,22 +202,22 @@ footer {
 }
 
 .links a {
-  text-decoration: none;
-  letter-spacing: 3px;
   color: #35477d;
+  letter-spacing: 3px;
   padding-left: 20px;
+  text-decoration: none;
 }
 
 /*** Media queries ***/
 @media screen and (max-width: 960px) {
   #header {
-    min-height: 140px;
     flex-wrap: wrap;
+    min-height: 140px;
   }
 
   #header-img {
-    width: 100%;
     max-height: 80px;
+    width: 100%;
   }
 
   #nav-bar {
@@ -233,11 +231,6 @@ footer {
   #pricing {
     margin-bottom: 50px;
   }
-  /* 
-  footer {
-    width: 100%;
-    max-width: 960px;
-  } */
 }
 
 @media screen and (max-width: 640px) {
@@ -254,9 +247,9 @@ footer {
   }
 
   #nav-bar ul li {
-    width: 100%;
     display: block;
     float: left;
+    width: 100%;
     /* text-align: center; */
   }
 
