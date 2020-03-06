@@ -98,7 +98,7 @@ h3 {
 
 .title {
   font-family: "Pacifico";
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 #form input {
@@ -170,13 +170,10 @@ h3 {
   padding: 50px 30px;
 }
 
-#pricing * {
-  flex: 1;
-}
-
 .price {
   border: 1px solid #35477d;
-  margin: 0 20px;
+  margin: 0 10px;
+  width: 33%;
 }
 
 .price h3 {
@@ -188,7 +185,7 @@ h3 {
 }
 
 .item-price {
-  font-size: 30px;
+  font-size: 2rem;
   margin: 10px 0;
   text-align: center;
 }
@@ -283,6 +280,15 @@ footer {
   }
 
   .wrapper {
-    top: 150px;
+    top: 120px;
+  }
+
+  #pricing {
+    flex-direction: column;
+  }
+
+  .price {
+    width: 100%;
+    margin: 10px auto;
   }
 }
