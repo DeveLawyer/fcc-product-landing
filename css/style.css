@@ -235,6 +235,7 @@ footer {
   #header {
     flex-wrap: wrap;
     min-height: 140px;
+    position: relative;
   }
 
   #header-img {
@@ -247,11 +248,15 @@ footer {
   }
 
   .wrapper {
-    top: 140px;
+    top: 0;
   }
 
   #pricing {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    top: 0;
   }
 }
 
@@ -290,5 +295,9 @@ footer {
   .price {
     width: 100%;
     margin: 10px auto;
+  }
+
+  footer {
+    top: 80px;
   }
 }
