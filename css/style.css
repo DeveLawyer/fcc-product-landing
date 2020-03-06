@@ -102,9 +102,9 @@ h3 {
 }
 
 #form input {
+  font-size: 1rem;
   margin: 10px auto;
   padding: 10px 5px;
-  font-size: 1rem;
 }
 
 #form input:hover {
@@ -136,8 +136,8 @@ h3 {
 }
 
 #form .btn {
-  width: 25%;
   min-width: 200px;
+  width: 25%;
 }
 
 /*** Features section ***/
@@ -152,15 +152,13 @@ h3 {
 
 /*** How-it-works section ***/
 #how-it-works {
-  /* position: relative; */
-  /* margin-top: 50px; */
   margin-top: 50px;
   text-align: center;
 }
 
 #how-it-works * {
-  width: 90%;
   max-width: 500px;
+  width: 90%;
 }
 
 /*** Pricing-section ***/
@@ -275,8 +273,8 @@ footer {
   }
 
   #nav-bar li {
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
 
   .nav-link {
@@ -293,8 +291,8 @@ footer {
   }
 
   .price {
-    width: 100%;
     margin: 10px auto;
+    width: 100%;
   }
 
   footer {
