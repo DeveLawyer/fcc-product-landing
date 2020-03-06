@@ -228,6 +228,10 @@ footer {
   .wrapper {
     top: 140px;
   }
+
+  footer {
+    max-width: 960px;
+  }
 }
 
 @media screen and (max-width: 640px) {
