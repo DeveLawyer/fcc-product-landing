@@ -134,8 +134,15 @@ h3 {
 
 /*** How-it-works section ***/
 #how-it-works {
+  /* position: relative; */
+  /* margin-top: 50px; */
   margin-top: 50px;
   text-align: center;
+}
+
+#how-it-works * {
+  width: 90%;
+  max-width: 500px;
 }
 
 /*** Pricing-section ***/
@@ -238,22 +245,22 @@ footer {
     position: relative;
   }
 
+  #header-img,
   #nav-bar {
-    flex-direction: column;
-  }
-
-  #nav-bar ul {
     width: 100%;
   }
 
-  #nav-bar ul li {
+  #nav-bar li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link {
     display: block;
-    float: left;
-    width: 100%;
-    /* text-align: center; */
+    margin-left: 0;
   }
 
   .wrapper {
-    top: 50px;
+    top: 150px;
   }
 }
